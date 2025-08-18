@@ -2,8 +2,8 @@
 
 This group project is an attempt to implement a reaseach paper named : " **Doubly Fair Dynamic Pricing** " in python published.
 
-In the `**code**` folder, you will find the actual code implementation of the **algorithms** crafted in the paper.
-There is also a `**presentataion**` in the codebase to understand the **crux** of the research paper and the algorithms in it.
+In the **`code`** folder, you will find the actual code implementation of the **algorithms** crafted in the paper.
+There is also a **`presentataion`** in the codebase to understand the **crux** of the research paper and the algorithms in it.
 
 ### Abstract
 
