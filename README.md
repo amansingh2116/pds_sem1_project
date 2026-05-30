@@ -1,10 +1,39 @@
-## Doubly Fair Dynamic Pricing implementation
+# Research Papers Implementation
 
-This group project is an attempt to implement a reaseach paper named : " **Doubly Fair Dynamic Pricing** " in python published.
+Welcome to my **Research Papers Implementation** repository! 
 
-In the **`code`** folder, you will find the actual code implementation of the **algorithms** crafted in the paper.
-There is also a **`presentataion`** in the codebase to understand the **crux** of the research paper and the algorithms in it.
+This repository serves as a centralized hub for my personal implementations, notes, and presentations on fundamental research papers across various domains, including Artificial Intelligence, Quantitative Finance, and Data Science.
 
-### Abstract
+## Directory Structure
 
-We study the problem of online dynamic pricing with two types of fairness constraints: a "procedural fairness" which requires the proposed prices to be equal in expectation among different groups, and a "substantive fairness" which requires the accepted prices to be equal in expectation among different groups. A policy that is simultaneously procedural and substantive fair is referred to as "doubly fair". We show that a doubly fair policy must be random to have higher revenue than the best trivial policy that assigns the same price to different groups. In a two-group setting, we propose an online learning algorithm for the 2-group pricing problems that achieves $$\( \tilde{O}(\sqrt{T}) \)$$ regret, zero procedural unfairness and $$\( \tilde{O}(\sqrt{T}) \)$$ substantive unfairness over rounds of learning. We also prove two lower bounds showing that these results on regret and unfairness are both information-theoretically optimal up to iterated logarithmic factors. To the best of our knowledge, this is the first dynamic pricing algorithm that learns to price while satisfying two fairness constraints at the same time.
+To keep things organized and easy to navigate, the repository is structured into domain-specific folders:
+
+- **[`AI/`](./AI)**: Implementations of fundamental papers in Artificial Intelligence, Deep Learning, and Machine Learning.
+- **[`Quant/`](./Quant)**: Papers related to Quantitative Finance, Operations Research, Pricing Models, and Algorithmic Trading.
+- **[`Data_Science/`](./Data_Science)**: Papers covering advanced Data Science techniques, Statistical Modeling, and Big Data processing.
+
+---
+
+## Current Implementations
+
+### [Doubly Fair Dynamic Pricing](./Quant/Doubly%20Fair%20Dynamic%20Pricing) (in `Quant/`)
+
+An implementation of the paper *"Doubly Fair Dynamic Pricing"*. This project explores online dynamic pricing with two types of fairness constraints:
+- **Procedural Fairness**: Requires the proposed prices to be equal in expectation among different groups.
+- **Substantive Fairness**: Requires the accepted prices to be equal in expectation among different groups.
+
+Inside the folder, you will find:
+- The `code` directory containing the algorithm implementation.
+- A `Presentation.pdf` to help understand the crux of the research paper.
+- The annotated research paper PDF.
+
+---
+
+## How to use this repository
+
+Each paper's folder is self-contained. You will typically find:
+- A `code/` folder with the scripts and notebooks used for the implementation.
+- An original or annotated PDF of the research paper.
+- A summary presentation or notes file explaining the core concepts, math, and findings of the paper.
+
+Feel free to explore the code, read the summaries, and use these resources to better understand these fundamental papers!
